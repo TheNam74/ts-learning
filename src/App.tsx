@@ -35,8 +35,6 @@ function App() {
         type: "increment" | "decrement" | "reset";
         payload: number;
     };
-    type UpdateAction
-
     const initialState = { count: 0 };
     function reducer(state: CounterState, action: CounterAction) {
         switch (action.type) {
